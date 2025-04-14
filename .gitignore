@@ -1,0 +1,31 @@
+# Composer
+/vendor/
+composer.phar
+
+# IDE ve Editör Dosyaları
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Sistem Dosyaları
+.DS_Store
+Thumbs.db
+
+# Yapılandırma
+config.local.php
+
+# Geçici Dosyalar
+*.log
+*.cache
+*.tmp
+
+# SSL Kontrol Geçici Dosyaları
+*.pdf
+*.xls
+*.xlsx
+
+# Ortam Dosyaları
+.env
+.env.local
+.env.*.local 
